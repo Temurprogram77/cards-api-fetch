@@ -1,6 +1,7 @@
 let container = document.querySelector('.container');
 
-fetch("https://jsonplaceholder.typicode.com/photos")
+const tech = fetch("https://jsonplaceholder.typicode.com/photos")
 .then(response => {
-    console.log(response);
+    return response.json();
 })
+console.log(tech);
