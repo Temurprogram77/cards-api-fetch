@@ -9,12 +9,18 @@ body {
   margin: 50px auto;
 }
 .card {
-    width: 200px;
-    height: 200px;
-    background: #979797;
-    border-radius: 10px;
-    overflow: hidden;
+  width: 200px;
+  height: 200px;
+  background: #979797;
+  border-radius: 10px;
+  overflow: hidden;
 }
 .card img {
-    width: 100%;
+  width: 100%;
+}
+.ids {
+  padding: 5px 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
 }
