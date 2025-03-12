@@ -7,7 +7,6 @@ const tech = fetch("https://jsonplaceholder.typicode.com/photos")
   .then((data) => {
     data.forEach((elemn) => {
       const element = document.createElement("div");
-      element.classList.add("post");
       element.innerHTML = `
       
         <div class="card">
