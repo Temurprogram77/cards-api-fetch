@@ -11,7 +11,7 @@ const tech = fetch("https://jsonplaceholder.typicode.com/photos")
       element.innerHTML = `
       
         <div class="card">
-            <img src="/index.html" alt="photo">
+            <img src="${elemn.url}" alt="photo">
             <p class="title">Accusamus beatae ad facilis cum similique qui sunt</p>
             <div class="ids">
                 <div class="book_id">2</div>
